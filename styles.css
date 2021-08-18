@@ -13,6 +13,7 @@ body {
 	align-items: center;
 	height: 100vh;
 	background-image: linear-gradient(to bottom, #fff, #f0f0f0);
+ 
 }
 img {
 	max-width: 100%;
@@ -65,7 +66,7 @@ nav {
 	color: rgb(173, 172, 172);
 }
 .main {
-	height: 92vh;
+	height: 80vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -112,6 +113,32 @@ span:nth-child(2) {
 	z-index: -1;
 	transform: skew(2deg, 2deg);
 	background: linear-gradient(315deg, #ff0057, #e64a19);
+}
+.footer {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ padding: 0 3em;
+ height: 10vh;
+}
+.footer img {
+ width: 20%;
+}
+
+.footer div{
+  /* background-color: saddlebrown; */
+  width: 100%;
+  /* margin: 0 6em; */
+}
+@-webkit-keyframes slide {
+	from {
+		transform: translateX(-35px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0px);
+		opacity: 1;
+	}
 }
 
 @-webkit-keyframes slide {
@@ -176,6 +203,9 @@ span:nth-child(2) {
   width: 70%;
   margin-top: 1em;
  }
+ .footer img {
+  width: 50%;
+ }
 
 	@-webkit-keyframes slideUp {
 		from {
@@ -236,6 +266,10 @@ span:nth-child(2) {
   border-bottom: 2px solid #000;
   transition: 0.4s;
  }
+ .footer img {
+  width: 50%;
+ }
+
 
 	@-webkit-keyframes slideUp {
 		from {
